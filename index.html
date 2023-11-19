@@ -482,23 +482,23 @@
             <div class="templateClassForGalleryImage"></div>
           </div>
           <!-- If we need pagination -->
-          <div class="swiper-pagination"></div>
+          <!-- <div class="swiper-pagination"></div> -->
 
           <!-- If we need navigation buttons -->
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
 
           <!-- If we need scrollbar -->
-          <div class="swiper-scrollbar"></div>
+          <!-- <div class="swiper-scrollbar"></div> -->
         </div>
       </section>
 
       <!-- referral section -->
       <!-- <section id="referral" class="about-section">
         <div class="container text-center text-white">
-          <h3 class="about-service-heading mb-5 pt-5" style="color: black">
-            REFERRAL CODE
-          </h3>
+          <h3 class="about-service-heading mb-5 pt-5" style="color: black"> -->
+            <!-- REFERRAL CODE -->
+          <!-- </h3>
 
           <div class="row about-data">
             <div
@@ -508,13 +508,13 @@
                 justify-content: center;
                 align-items: center;
               "
-            >
-              <h4 style="color: black; font-weight: 700; font-size: 5vw">
+            > -->
+              <!-- <h4 style="color: black; font-weight: 700; font-size: 5vw">
                 Your Referral Code:&nbsp;
-              </h4>
-              <span id="referralCode"></span>
-            </div>
-            <div class="col-md-6 col-12 mt-1">
+              </h4> -->
+              <!-- <span id="referralCode"></span> -->
+            <!-- </div> -->
+            <!-- <div class="col-md-6 col-12 mt-1">
               <div class="input-group rounded">
                 <input
                   type="text"
@@ -529,12 +529,12 @@
                     style="background-color: black; color: white"
                   >
                     <i class="fab fa-whatsapp pr-1"></i>Share on Whatsapp
-                  </button> -->
-                  <!-- <div id="shareReferral"></div>
+                  </button>
+                  <div id="shareReferral"></div>
                 </div>
               </div>
-            </div>
-          </div>
+            </div> -->
+          <!-- </div>
         </div>
       </section> -->
 
@@ -684,22 +684,6 @@
               ></label>
             </div>
           </div>
-          <!-- <div class="row QR-Code">
-                    <div class="col-12 text-center pt-3">
-                        <a href="#!">
-                            <img src="images/QR-Image.webp" alt="QR-Image" height="130px" width="130px">
-                        </a>
-                        <a href="images/QR-Image.webp" download="QR-code-image" class="download-qr-code">Download QR</a>
-                    </div>
-                </div>
-                <div class="row dizibharat pb-4">
-                    <div class="col-12 text-center pt-3">
-                        <a href="https://dizibharat.in/">
-                            <span class="created-by">Created By</span><img src="images/dizilogo.webp" alt="dizilogo"
-                                height="60px" width="183px">
-                        </a>
-                    </div>
-                </div> -->
         </div>
       </section>
 
@@ -726,20 +710,6 @@
       const title = window.document.title;
       const url = window.document.location.href;
 
-      // shareButton.addEventListener('click', () => {
-      //     if (navigator.share) {
-      //         navigator.share({
-      //             title: `${title}`,
-      //             url: `${url}`,
-
-      //         }).then(() => {
-      //             alert('Thanks for sharing!');
-      //         })
-      //             .catch(console.error);
-      //     } else {
-
-      //     }
-      // })
       shareButton.addEventListener("click", async () => {
         try {
           await navigator.share({ title: `${title}`, url: `${url}` });
@@ -806,7 +776,6 @@
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
 
     <!-- script for gallery section -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
       const mySwiper = new Swiper(".swiper", {
@@ -820,22 +789,22 @@
           slideShadows: true,
         },
         // If we need pagination
-        pagination: {
-          el: ".swiper-pagination",
-        },
-
+        // pagination: {
+        //   el: ".swiper-pagination",
+        // },
+        
         // Navigation arrows
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
-
+        
         // And if we need scrollbar
-        scrollbar: {
-          el: ".swiper-scrollbar",
-        },
+        // scrollbar: {
+        //   el: ".swiper-scrollbar",
+        // },
       });
-    </script>
+      </script>
 
     <!-- js code for Referral Code -->
     <script>
