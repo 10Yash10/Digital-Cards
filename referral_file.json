@@ -1,0 +1,19 @@
+{
+    "users": [
+        {
+            "id":1,
+            "referral_code":"35AI5D7",
+            "referral_count":0
+        },
+        {
+            "id":2,
+            "referral_code":"20B33D7",
+            "referral_count":0
+        },
+        {
+            "id":3,
+            "referral_code":"502HS2B",
+            "referral_count":0
+        }
+    ]
+}
