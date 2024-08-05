@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Toys Store website">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">     
+    <title>Toys Store Brand</title>
+    <!-- manifest file link -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icon180.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="images/icon192.png">
+    <!-- Favicon link -->
+    <link rel="icon" type="image/webp" href="images/logo-image.jpg">
+    <!-- cdn link download -->
+    <link rel="preload stylesheet" as="style" href="bootstrap/css/bootstrap.min.css">
+    <!-- icon cdn link font awesome-->
+    <link rel="preload stylesheet" as="style" href="css/all.min.css">
+    <link rel="preload stylesheet" as="style" href="css/fontawesome.min.css">
+	<link rel="preload stylesheet" as="style" href="css/CustomCssForServiceTabs.css">
+    <!-- css file link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap" rel="stylesheet">
+    <!-- cdn link for gallery -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/gallery.css"> 
+    <link rel="preload stylesheet" as="style" type="text/css" href="style.css">
+    <!-- js file link -->
+    <meta name="msapplication-TileImage" content="">
+    <meta property="og:site_name" content="Toys Store ">
+    <meta property="og:title" content="Toys Store ">
+    <meta property="og:description" content="Toys Store">
+
+    <meta property="og:image" itemprop="image" content="">
+
+
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/webp">
+
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+
+    <meta property="og:url" content="">
+    <meta property="twitter:card" content="summary_large_image">
+	   <script src="js/main.js"></script>
+    <script src="bootstrap/js/jquery-3.6.1.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/jQueryFileForBasicDataChangesFunctions.js"></script>
+	<script src="js/jQueryFileForServicesDataAndFunctions.js"></script>
+	<script src="js/jQueryFileForGalleryImagesAndFunctions.js"></script>
+</head>
+
+<body>
+    <!-- <section id="loader">
+        <img src="images/preload.webp" alt="load" height="64px" width="64px">
+    </section> -->
+    <!-- navbar and home section -->
+    <div class="body-image">
+        <img class="body-fix-image">
+        <section id="home" class="navbar-home-section"> 
+            <!--navbar-->
+            <div class="opening">
+                <div class="opening-button">
+                    <div class="openbtn" onclick="openNav()"><i class="fa fa-bars"></i></div>
+                </div>
+                <div id="mySidepanel" class="sidepanel">
+                    <ul>
+                        <li>
+                            <span>
+                                <a href="#home" class="nav-link" onclick="closeNav()"><img src=""
+                                        alt="NavbarBrandLogoImage" class="rounded-circle jQClassForProfileImage"
+                                        height="30px" width="30px"><span
+                                        class="jQClassForNavOrAddressBrandName"></span></a>
+
+                                <button class="closebtn" title="close" onclick="closeNav()"><i
+                                        class="fa fa-close"></i></button>
+                            </span>
+                        </li>
+                        <li>
+                            <a href="#profile" class="nav-link" onclick="closeNav()"><img
+                                    src="images/icons/profileicon.webp" alt="profileicon" height="30px"
+                                    width="30px">Profile</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="nav-link" onclick="closeNav()"><img
+                                    src="images/icons/contact-cardicon.webp" alt="contactcardicon" height="30px"
+                                    width="30px">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="nav-link" onclick="closeNav()"><img
+                                    src="images/icons/abouticon.webp" alt="abouticon" height="30px" width="30px">About
+                                us</a>
+                        </li>
+                        <li>
+                            <a href="#service" class="nav-link" onclick="closeNav()"><img
+                                    src="images/icons/toy-shop.png" alt="serviceicon" height="30px"
+                                    width="30px">Toys Store</a>
+                        </li>
+                        <li>
+                            <a href="#gallery" class="nav-link" onclick="closeNav()"><img
+                                    src="images/icons/portfolioicon.webp" alt="portfolioicon" height="30px"
+                                    width="30px">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#feedback" class="nav-link" onclick="closeNav()"><img
+                                    src="images/icons/feedbackicon.webp" alt="feedbackicon" height="30px"
+                                    width="30px">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            
+
+            <!-- background-animated-image -->
+            <section class="nav-home-bg-image jQClassForCoverPhoto">
+
+        </section>
+        <!--home-->
+
+        <div class="container-fluid">
+            <div class="row">
+                <!-- <div class="col-12 middle-video p-0">
+                    <video autoplay muted loop width="100%">
+                        <source src="video/video1.mp4" type="video/mp4">
+                    </video>
+                </div> -->
+                <div class="col-12 middle-logo p-0">
+                    <img src="" alt="LogoProfileImage" class="first-image jQClassForProfileImage" height="150px"
+                        width="150px">
+                    <h2 class="jQClassForBrandNameOrPersonName"></h2>
+                    <!-- <h3 class="jQClassForPersonName"></h3> -->
+                    <!-- <img src="images/hayat-fragrance-of-life-text-logo.webp" alt="hayat-fragrance-of-life-text-logo" width="250px" height="61px"> -->
+                    <!-- <h6>Avneesh Kumar Singh</h6> -->
+
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+        <!-- Profile section -->
+        <section id="profile" class="profile-section">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row profile-icon">
+                        <div class="col-4 text-center pb-1">
+                            <a href="#!" class="call jQClassForPhoneNumberAnchor">
+                                <i class="fa fa-phone"></i>
+                                <p>Call</p>
+                            </a>
+                        </div>
+                        <div class="col-4 text-center pb-1">
+                            <a href="#!" class="whatsapp jQClassForWhatsAPPNumber">
+                                <i class="fab fa-whatsapp"></i>
+                                <p>Whatsapp</p>
+                            </a>
+                        </div>
+                        <div class="col-4 text-center pb-1">
+                            <a href="#!" class="email jQClassForEmailAddress">
+                                <i class="fa fa-envelope"></i>
+                                <p>Email</p>
+                            </a>
+                        </div>
+                        <div class="col-4 text-center pb-3">
+                            <a href="#!" class="direction jQClassForDirection">
+                                <i class="fa fa-location-crosshairs"></i>
+                                <p>Direction</p>
+                            </a>
+                        </div>
+                        <div class="col-4 text-center pb-3">
+                            <a target="_blank" rel="nofollow noopener" href="#!" class="Website jQClassForWebSite">
+                                <i class="fa fa-earth-asia"></i>
+                                <!-- <i class="fab fa-facebook"></i> -->
+                                <p>Website</p>
+                            </a>
+                        </div>
+                        <div class="col-4 text-center pb-3">
+                            <a href="#!" class="facebook-messenger jQClassForMessageNumber">
+                                <i class="fa-solid fa-comment-sms"></i>
+                                <p>Message</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="contact-section">
+            <div class="container-fluid pt-3 pb-4">
+                <div class="container contact-icon">
+                    <div class="row pb-sm-2 pb-1">
+                        <div class="col-2 text-center pt-sm-0 pt-2">
+                            <a href="#!" class="direction jQClassForDirection" title="Address">
+                                <i class="fa fa-location-crosshairs"></i>
+                            </a>
+                        </div>
+                        <div class="col-1 d-none d-sm-block"></div>
+                        <div class="col-9 pt-lg-2">
+                            <p class="jQClassForFullAddress">
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row pb-sm-2 pb-1">
+                        <div class="col-2 text-center">
+                            <a href="#!" class="call jQClassForPhoneNumberAnchor" title="Call">
+                                <i class="fa fa-phone"></i>
+                            </a>
+                        </div>
+                        <div class="col-1 d-none d-sm-block"></div>
+                        <div class="col-9 pt-2">
+                            <p class="jQClassForPhoneNumber"></p>
+
+                        </div>
+                    </div>
+                   
+
+                    <div class="row pb-sm-2 pb-1">
+                        <div class="col-2 text-center">
+                            <a href="#!" class="email jQClassForEmailAddress" title="Send Mail">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        </div>
+                        <div class="col-1 d-none d-sm-block"></div>
+                        <div class="col-9 pt-2">
+                            <p class="jQClassForEmailAddressValue"></p>
+
+                        </div>
+                    </div>
+
+                    <!-- <div class="row QR-Code">
+                        <div class="col-12 text-center pt-3">
+                            <a href="#!">
+                                <img src="images/45.jpg" alt="QR-Image" height="90px" width="90px"></a>
+
+                            <div class="code">
+                                Payment Qr Code
+                            </div>
+                        </div>
+                    </div> -->
+
+                   
+
+
+                    <div class="col-1 d-none d-sm-block"></div>
+                    <div class="col-9 pt-2">
+                        <p class=""></p>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center contact-button">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-12 mt-1">
+                        <div class="input-group rounded">
+                            <input type="text" name="number" class="form-control" placeholder="+91 Phone Number">
+                            <div class="">
+                                <button onclick="share()" class="btn btn-success"><i
+                                        class="fab fa-whatsapp pr-1"></i>Share on Whatsapp</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mt-2 add-to">
+                        <button class="btn button-color add-to-btn"><i
+                                class="fa-solid fa-cloud-arrow-down pr-1"></i>Install App</button>
+                    </div>
+                    <div class="col-md-3 col-6 mt-2">
+                        <a href="main.vcf" class="btn button-color">Add Contact</a>
+                    </div>
+                    <div class="col-md-3 col-6 mt-2">
+                        <a target="_blank" rel="nofollow noopener" href="#!"
+                            class="btn button-color jQClassForFollowButton"><i
+                                class="fa-solid fa-bell pr-1"></i>Follow</a>
+                    </div>
+                    <div class="col-md-3 col-6 mt-2">
+                        <a target="_blank" rel="nofollow noopener" href="#!"
+                            class="btn button-color jQClassForWhatsAPPNumberWithURL"><i
+                                class="fab fa-whatsapp pr-1 "></i>Whatsapp</a>
+                    </div>
+                    <div class="col-md-3 col-6 mt-2">
+                        <a target="_blank" rel="nofollow noopener" href="#!"
+                            class="btn button-color jQClassForMessageNumberWithURL"><i
+                                class="fa-solid fa-comment-sms pr-1"></i>Message</a>
+                    </div>
+                    <div class="col-md-3 col-6 mt-2">
+                        <a target="_blank" rel="nofollow noopener" href="#!"
+                            class="btn button-color jQClassForMessageNumberWithURL"><i
+                                class="fa-solid fa-share-nodes pr-1"></i>Share</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container pt-3 pb-0">
+                <div class="row contact-socialmedia-icon text-center">
+                    <div class="col-3 p-2">
+                        <a href="#!" target="_blank" class="jQClassForFacebookProfileButton">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                    <div class="col-3 p-2">
+                        <a href="#!" target="_blank" class="jQClassForInstagramProfileButton">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="col-3 p-2">
+                        <a href="#!" target="_blank" class="jQClassForYoutubeProfileButton">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                    <div class="col-3 p-2">
+                        <a href="#!" target="_blank" class="jQClassForWebSite">
+                            <i class="fa-solid fa-globe"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+
+
+    <!-- About section -->
+    <section id="about" class="about-section">
+        <div class="container text-center text-white">
+            <h3 class="about-service-heading">ABOUT US</h3>
+
+            <div class="row about-data">
+                <div class="col-12">
+                    <!-- <h4>WELCOME IN THE WORLD OF CODING</h4> -->
+                    <p class="pt-2 jQClassForAboutUS">
+
+                    </p>
+                </div>
+            </div>
+             <button type="button" class="btn about-button-color mb-4 mt-3" data-toggle="collapse"
+                data-target="#about-collapse">Opening Hours</button>
+            <div id="about-collapse" class="collapse timing-text-color jQClassForOpeningHours pb-4">
+
+            </div> 
+        </div>
+
+    </section>
+
+    <!-- Service section -->
+    <section id="service" class="service-section">
+        <div class="container">
+            <h3 class="about-service-heading mb-3">Toys Store</h3>
+            <ul class="nav tabs jQueryClassForServiceTabs">
+                <li class="nav-item">
+                    <a class="nav-link active jQServicesTabClick" customAttrCategoryTypeID="0" data-toggle="tab"
+                        href="#all">All</a>
+                </li>
+            </ul>
+            <ul class="jQNameDescriptionPrice">
+                
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+
+                <!-- all -->
+                <div id="all" class="container tab-pane active"><br>
+                    <div class="row templateClassForServies">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section id="gallery" class="">
+        <div class="container">
+          <h3 class="about-service-heading mt-5 mb-5">GALLERY</h3>
+        </div>
+        <div class="swiper mySwipper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <!-- <div class="swiper-slide" >
+            </div> -->
+
+            <div class="templateClassForGalleryImage"></div>
+          </div>
+          <!-- If we need pagination -->
+          <!-- <div class="swiper-pagination"></div> -->
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+      </section>
+    <!-- video section -->
+    <!-- <section id="video" class="portfolio-section pt-3">
+            <div class="container">
+                <h3 class="about-service-heading">VIDEO</h3>
+                <div class="row pt-4 templateClassForVideoImages">
+                    
+                </div>
+            </div>
+        </section> -->
+
+    <!-- feedback section -->
+    <section id="feedback" class="feedback-section pt-3">
+        <div class="container">
+            <h3 class="about-service-heading">FEEDBACK</h3>
+            <div class="row">
+                <div class="col-12 pt-3 pb-3">
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators d-none">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+
+                        <!-- The slideshow -->
+                         <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p class="jQClassForFeedbackReviewFirst">
+
+                                </p>
+                                <img src="images/stars.webp" alt="star image" height="23px" width="123px">
+                            </div>
+                            <div class="carousel-item">
+                                <p class="jQClassForFeedbackReviewSecond">
+
+                                </p>
+                                <img src="images/stars.webp" alt="star image" height="23px" width="123px">
+                            </div>
+                            <div class="carousel-item">
+                                <p class="jQClassForFeedbackReviewThird">
+
+                                </p>
+                                <img src="images/stars.webp" alt="star image" height="23px" width="123px">
+                            </div>
+                        </div> 
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mb-5">
+            <div class="row mt-4 align-items-center text-center">
+                <div class="col-sm-3 col-md-4 col-6 text-white">
+                    <div class="feed-star">
+                        <span class="">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4 col-6 pro-bar">
+                    <center>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-star text-warning pt-1 pr-1"></i>
+                            <strong>5</strong>
+                            <div class="progress bg-secondary m-1" style="width:120px">
+                                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                                    style="width: 70%">70%</div>
+                            </div>
+                            <!-- <strong>3</strong> -->
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-star text-warning pt-1 pr-1"></i>
+                            <strong>4</strong>
+                            <div class="progress bg-secondary m-1" style="width:120px">
+                                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                                    style="width:20%">20%</div>
+                            </div>
+                            <!-- <strong>0</strong> -->
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-star text-warning pt-1 pr-1"></i>
+                            <strong>3</strong>
+                            <div class="progress bg-secondary m-1" style="width:120px">
+                                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                                    style="width:10%">10%</div>
+                            </div>
+                            <!-- <strong>0</strong> -->
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-star text-warning pt-1 pr-1"></i>
+                            <strong>2</strong>
+                            <div class="progress bg-secondary m-1" style="width:120px">
+                                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                                    style="width:0%"></div>
+                            </div>
+                            <!-- <strong>0</strong> -->
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-star text-warning pt-1 pr-1"></i>
+                            <strong>1</strong>
+                            <div class="progress bg-secondary m-1" style="width:120px">
+                                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                                    style="width:0%"></div>
+                            </div>
+                            <!-- <strong>0</strong> -->
+                        </div>
+                    </center>
+                </div>
+                <div class="col-sm-5 col-md-4 col-12 star-rating-wrapper">
+                    <input type="radio" name="rating" id="star-1"><label for="star-1"></label>
+                    <input type="radio" name="rating" id="star-2"><label for="star-2"></label>
+                    <input type="radio" name="rating" id="star-3"><label for="star-3"></label>
+                    <input type="radio" name="rating" id="star-4"><label for="star-4"></label>
+                    <input type="radio" name="rating" id="star-5"><label for="star-5"></label>
+                </div> 
+            </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- bottom to top -->
+        <section class="section-bottom-top">
+            <a href="#home" data-toggle="tooltip" title="Top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </section>
+
+    </div>
+    <!-- preloader -->
+    <script>
+        var loader = document.getElementById('loader');
+
+        window.addEventListener('load', function () {
+
+
+            loader.style.visibility = "hidden";
+        });
+    </script>
+
+    <!-- web share -->
+    <script>
+        const shareButton = document.querySelector('#btn');
+
+        const title = window.document.title;
+        const url = window.document.location.href;
+
+        shareButton.addEventListener("click", async () => {
+            try {
+                await navigator.share({ title: `${title}`, url: `${url}` });
+                alert("Data was shared successfully");
+            } catch (err) {
+                console.error("Share failed:", err.message);
+            }
+        });
+    </script>
+
+
+    <!-- save my card -->
+    <script type="text/javascript">
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('serviceworker.js').then(function (registration) {
+
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function (err) {
+
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+
+        let deferredPrompt;
+        var div = document.querySelector('.add-to');
+        var button = document.querySelector('.add-to-btn');
+        div.style.display = 'block';
+
+        window.addEventListener('beforeinstallprompt', (e) => {
+
+            e.preventDefault();
+
+            deferredPrompt = e;
+            div.style.display = 'block';
+
+            button.addEventListener('click', (e) => {
+
+                div.style.display = 'none';
+
+                deferredPrompt.prompt();
+
+                deferredPrompt.userChoice
+                    .then((choiceResult) => {
+                        if (choiceResult.outcome === 'accepted') {
+                            alert('App Installed in Device');
+                        } else {
+                            alert('App Not Install');
+                        }
+                        deferredPrompt = null;
+                    });
+            });
+        });
+    </script>
+
+    <!-- whatsapp on share -->
+    <script>
+        function share() {
+            let user = $("input[name=number]").val();
+            window.open(
+                `https://wa.me/+91${user}?text=https%3A%2F%2F%2FToys StoreForLife`, '_blank'
+            )
+        }
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  const mySwiper = new Swiper(".swiper", {
+    // Optional parameters
+    direction: "horizontal",
+    loop: true,
+    speed: 300,
+    mousewheel: true,
+    coverflowEffect: {
+      rotate: 30,
+      slideShadows: true,
+    },
+    // If we need pagination
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    
+    // Navigation arrows
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    
+    // And if we need scrollbar
+    scrollbar: {
+      el: ".swiper-scrollbar",
+    },
+  });
+  </script>
+
+</body>
+
+</html>
