@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1">
+    <meta name="description" content="Medical website">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">      
+    <title>Dr. Asit Khanna</title>
+    <!-- manifest file link -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icon180.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="images/icon192.png">
+    <!-- Favicon link -->
+    <link rel="icon" type="image/webp" href="images/logo-image.png">
+    <!-- cdn link download -->
+    <link rel="preload stylesheet" as="style" href="bootstrap/css/bootstrap.min.css">
+    <!-- icon cdn link font awesome-->
+    <link rel="preload stylesheet" as="style" href="css/all.min.css">
+    <link rel="preload stylesheet" as="style" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preload stylesheet" as="style" href="css/CustomCssForServiceTabs.css">
+    <!-- css file link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap" rel="stylesheet">
+    <!-- cdn link for gallery -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/gallery.css"> 
+    <link rel="preload stylesheet" as="style" type="text/css" href="style.css">
+    <!-- js file link -->
+    <meta name="msapplication-TileImage" content="">
+    <meta property="og:site_name" content="Dr. Asit Khanna">
+    <meta itemprop="name" content="Dr. Asit Khanna">
+    <meta property="og:title" content="Dr. Asit Khanna">
+    <meta property="og:description" content="Dr. Asit Khanna is a leading Cardiologist who have done more than 15000 angiographies and 5000 angioplasties (coronary/peripheral/carotid/Rota/IVL) and 400 pacemakers/CRT/ICD/COMBO implantations. Numerous other interventions like numerous cath studies, balloon valvotomies, peripheral embolisations and several device implantations for ASD and PDA.">
+
+    <meta itemprop="image" content="https://i.postimg.cc/DZ6Q2x7W/preview-image.png">
+    <meta property="og:image" content="https://i.postimg.cc/DZ6Q2x7W/preview-image.png">
+
+
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/webp">
+
+    <meta property="og:image:width" content="900">
+    <meta property="og:image:height" content="900">
+
+    <meta property="og:url" content="https://www.digiidealab.com/asit_khanna">
+    <meta property="twitter:card" content="summary_large_image">
+	   <script src="js/main.js"></script>
+    <script src="bootstrap/js/jquery-3.6.1.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/jQueryFileForServicesDataAndFunctions.js"></script>
+	<script src="js/jQueryFileForGalleryImagesAndFunctions.js"></script>
+</head>
+
+<body>
+    <!-- <section id="loader">
+        <img src="images/preload.webp" alt="load" height="64px" width="64px">
+    </section> -->
+    <!-- navbar and home section -->
+    <div class="body-image">
+        <img class="body-fix-image">
+        <section id="home" class="navbar-home-section">
+            <!--navbar-->
+            <div class="opening">
+                <div class="opening-button">
+                    <div class="openbtn" onclick="openNav()"><i class="fa fa-ellipsis-v"></i></div>
+                </div>
+                <div id="mySidepanel" class="sidepanel">
+                    <ul>
+                        <li>
+                            <span>
+                                <a href="#home" class="nav-link" onclick="closeNav()"><img
+                                        src="images/logo-image.png" alt="Dr. Asit Khanna" class="rounded-circle"
+                                        height="30px" width="30px">Dr. Asit Khanna</a>
+
+                                <div class="closebtnBack">
+                                    <button class="closebtn" title="close" onclick="closeNav()">
+                                        <i class="fa fa-angle-right"></i>
+                                    </button>
+                                </div>
+                                    </span>
+                        </li>
+                        <li>
+                            <a href="#profile" class="nav-link" onclick="closeNav()"><img
+                                    src="images/icons/profile.png" alt="profileicon" height="30px"
+                                    width="30px">Profile</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="nav-link" onclick="closeNav()"><img
+                                    src="images/icons/contacts.png" alt="contactcardicon" height="30px"
+                                    width="30px">Contact</a>
+                        </li>
+                        <!-- <li>
+                            <a href="#payment" class="nav-link" onclick="closeNav()"><img
+                                    src="images/icons/cashless-payment.png" alt="contactcardicon" height="30px"
+                                    width="30px">Payment</a>
+                        </li> -->
+                        <li>
+                            <a href="#about" class="nav-link" onclick="closeNav()"><img
+                                    src="images/icons/pdf.png" alt="contactcardicon" height="30px"
+                                    width="30px">Pdf</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="nav-link" onclick="closeNav()"><img
+                                    src="images/icons/about.png" alt="abouticon" height="30px" width="30px">About
+                                us</a>
+                        </li>
+                        <li>
+                            <a href="#service" class="nav-link" onclick="closeNav()"><img
+                                    src="images/icons/activites.png" alt="serviceicon" height="30px"
+                                    width="30px">Activities</a>
+                        </li>
+                        <li>
+                            <a href="#gallery" class="nav-link" onclick="closeNav()"><img
+                                    src="images/icons/gallery.png" alt="portfolioicon" height="30px"
+                                    width="30px">Gallery</a>
+                        </li>
+                        <!-- <li>
+                            <a href="#feedback" class="nav-link" onclick="closeNav()"><img
+                                    src="images/icons/feedback.png" alt="feedbackicon" height="30px"
+                                    width="30px">Feedback</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- background-animated-image -->
+            <section class="nav-home-bg-image jQueryCoverBackground">
+
+            </section>
+            <!--home-->
+
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- <div class="col-12 middle-video p-0">
+                        <video autoplay muted loop width="100%">
+                            <source src="video/advocate-video1.mp4" type="video/mp4">
+                        </video>
+                    </div> -->
+                    <div class="col-12 middle-logo p-0">
+                        <img alt="Dr. Asit Khanna" class="first-image jQueryLogo" height="150px"
+                            width="150px">
+							
+							
+                        <h1 style="text-align:center;color:#fff;font-weight: 700;text-shadow: 0px 0px 5px #00d2ff;margin-bottom:0px;" class="jQueryTitle">
+                            <!-- Dr. Asit Khanna -->
+                        </h1>
+                        <span style="font-weight: bold; font-size: 15px;color:red" class="jQuerySubTitle">
+                            <!-- MD, DM, FACC, FESC, FAPSIC, FSCAI,FISC, FICP -->
+                        </span>
+                        <!-- <img src="images/TANEJA GROUP-text-logo.webp" alt="TANEJA GROUP-text-logo" width="250px" height="61px"> -->
+                        <!-- <h3>Dalip Matta</h3> -->
+                        <!-- <h6>Avneesh Kumar Singh</h6> -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <br><h3 class="about-service-heading "></h3><br><br><br>
+         <!-- <hr> -->
+        <!-- Profile section -->
+        <section id="profile" class="profile-section">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row profile-icon">
+                        <div class="col-4 text-center pb-1">
+                            <a class="call jQueryCallingNumber">
+                                <i class="fa fa-phone"></i>
+                                <p>Call</p>
+                            </a>
+                        </div>
+                        <div class="col-4 text-center pb-1">
+                            <a class="whatsapp jQueryWhatsappNumber">
+                                <i class="fab fa-whatsapp"></i>
+                                <p>Whatsapp</p>
+                            </a>
+                        </div>
+                        <div class="col-4 text-center pb-1">
+                            <a class="email jQueryEmail">
+                                <i class="fa fa-envelope"></i>
+                                <p>Email</p>
+                            </a>
+                        </div>
+                        <div class="col-4 text-center pb-3">
+                            <a class="direction jQueryDirection">
+                                <i class="fa fa-location-crosshairs"></i>
+                                <p>Direction</p>
+                            </a>
+                        </div>
+                        <div class="col-4 text-center pb-3">
+                            <a class="Website jQueryWebsite">
+                                <i class="fa fa-earth-asia"></i>
+                                <!-- <i class="fab fa-facebook"></i> -->
+                                <p>Website</p>
+                            </a>
+                        </div>
+                        <div class="col-4 text-center pb-3">
+                            <a class="facebook-messenger jQuerySms">
+                                <i class="fa-solid fa-comment-sms"></i>
+                                <p>Message</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="profile-star text-center">
+                    <a href="#rate">
+                        <span class="">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </span>
+                        <p class="star-review"><strong>4.2</strong>(195 review)</p>
+                    </a>
+                </div> -->
+            </div>
+        </section>
+        <h3 class="about-service-heading"></h3><br>  <br>
+
+        <!-- Contact section -->
+        <section id="contact" class="contact-section">
+            <div class="container-fluid pt-3 pb-4">
+                <div class="container contact-icon">
+                    <div class="row pb-sm-2 pb-1">
+                        <div class="col-2 text-center pt-sm-0 pt-2">
+                            <a class="direction jQueryDirection" title="Address">
+                                <i class="fa fa-location-crosshairs"></i>
+                            </a>
+                        </div>
+                        <div class="col-1 d-none d-sm-block"></div>
+                        <div class="col-9 pt-lg-2">
+                            <p class="jQueryDirectionText">
+                                <!-- Dr ASIT KHANNA<br>
+                                s/o Mr. R.N. Khanna<br>
+                                1405, Millennia Emerald Heights,
+                                Ramprastha Greens,Vaishali, Sector 7,<br>  
+                                Ghaziabad, UP – 201019, India. -->
+
+                            </p>
+                        </div>
+                    </div>
+                   
+                    <div class="row pb-sm-2 pb-1">
+                        <div class="col-2 text-center">
+                            <a href="tel:9818882958" class="call" title="Call">
+                                <i class="fa fa-phone"></i>
+                            </a>
+                        </div>
+                        <div class="col-1 d-none d-sm-block"></div>
+                        <div class="col-9 pt-2">
+                            <a class="jQueryCallingNumber" title="Call"><span></span></a>
+                            <a class="jQueryCallingSecondNumber" title="Call"><span></span></a>
+                        </div>
+                        
+                    </div>
+                    <div class="row pb-3">
+                        <div class="col-2 text-center">
+                            <a href="mailto:drasitkhanna@yahoo.co.in" class="email" title="Send Mail">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        </div>
+                        <div class="col-1 d-none d-sm-block"></div>
+                        <div class="col-9 pt-2">
+                            <a class="jQuerySecondEmail"><span></s></a>
+                            <a class="jQueryEmail"><span></span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container text-center contact-button">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 col-12 mt-1">
+                            <div class="input-group rounded">
+                                <input type="text" name="number" class="form-control" placeholder="+91 Phone Number">
+                                <div class="">
+                                    <button onclick="share()" class="btn btn-success"><i
+                                            class="fab fa-whatsapp pr-1"></i>Share on Whatsapp</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 mt-2 add-to">
+                            <button class="btn button-color add-to-btn"><i
+                                    class="fa-solid fa-cloud-arrow-down pr-1"></i>Install App</button>
+                        </div>
+                        <div class="col-md-3 col-6 mt-2">
+                            <a href="main.vcf" download="Asit_Khanna_Contact.vcf" class="btn button-color"><i class="fa fa-phone pr-1"></i>Add Contact</a>
+                        </div>
+                        <div class="col-md-3 col-6 mt-2">
+                            <a  class="btn button-color jQueryLinkedin"><i
+                                    class="fa-brands fa-linkedin pr-1"></i>LinkedIn</a>
+                        </div>
+                        <div class="col-md-3 col-6 mt-2">
+                            <a  class="btn button-color jQueryFacebook"><i
+                                    class="fa-brands fa-facebook pr-1"></i>Facebook</a>
+                        </div>
+                        <div class="col-md-3 col-6 mt-2">
+                            <a  class="btn button-color jQueryInstagram"><i
+                                    class="fa-brands fa-instagram pr-1"></i>Instagram</a>
+                        </div>
+                        <div class="col-md-3 col-6 mt-2">
+                            <a  class="btn button-color jQueryTwitter"><i
+                                    class="fa-brands fa-twitter pr-1"></i>Twitter</a>
+                        </div>
+                        <div class="col-md-3 col-6 mt-2">
+                            <a class="btn button-color jQueryWhatsappNumber"><i class="fab fa-whatsapp pr-1 "></i>Whatsapp</a>
+                        </div>
+                        <div class="col-md-3 col-6 mt-2">
+                            <a class="btn button-color jQuerySecondWebsite"><i class="	fa fa-window-restore pr-1 "></i>Website</a>
+                        </div>
+                        <div class="col-md-3 col-6 mt-2">
+                            <a target="_blank" rel="nofollow noopener"
+                                class="btn button-color jQueryCallingNumber"><i
+                                    class="fa-solid fa-comment-sms pr-1"></i>Message</a>
+                        </div>
+                        <div class="col-md-3 col-6 mt-2">
+                            <button class="btn button-color" id="btn"><i
+                                    class="fa-solid fa-share-nodes pr-1"></i>Share</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAYMENT SECTION -->
+        <!-- <section id="payment" class="about-section mb-5">
+            <div class="container text-center text-white">
+                <h3 class="about-service-heading">PAYMENT</h3>
+
+                <div class="row about-data">
+                    <div class="col-12"> -->
+                        <!-- <h4>WELCOME IN THE WORLD OF JEWELERYS</h4> -->
+                        <!-- <img src="images/QR-code.jpeg" alt="" width="90%" height="90%">
+                        <p class="pt-2 m-4" style="text-align:center;color:#00d2ff;font-weight: 700;
+                            font-size:18px;text-shadow: 2px 2px 2px #000;">
+                           Scan & Pay Securely Using Above QR Code 
+                        </p>
+                        <a style="padding:10px; text-align:center;background-color:#00d2ff;font-weight: 700; border-radius: 5px; color:white;
+                        font-size:18px;text-shadow: 2px 2px 2px #000;" href="images/QR-code.jpeg" download>Download QR <img src="images/icons/download.png" height="20px" width="20px" alt="download button image"></a>
+                    </div>
+                </div>
+               
+        </section> -->
+
+
+        <!-- PDF SECTION -->
+        <!-- <section id="pdf" class="about-section mb-5 mt-5" >
+            <div class="container text-center text-white">
+                <h3 class="about-service-heading">DOWNLOAD PDF</h3>
+
+                <div class="row about-data">
+                    <div class="col-12">
+                        <iframe style="margin:30px 0px" src="/pdf/Dr. Asit Khanna Profile..pdf" width="100%" height="500px" frameborder="0"></iframe>
+                        <p class="" style="text-align: center; margin:20px;">Dr. Asit Khanna Profile.pdf</p>
+                        <a style="padding:10px; text-align:center;background-color:#00d2ff;font-weight: 700; border-radius: 5px; color:white;
+                        font-size:18px;text-shadow: 2px 2px 2px #000;" href="/pdf/Dr. Asit Khanna Profile..pdf" download>Download PDF<img src="images/icons/download.png" height="20px" width="20px" alt="download button image"></a>
+                    </div>
+                </div>
+               
+        </section> -->
+
+        <!-- About section -->
+        <section id="about" class="about-section mt-5">
+            <div class="container mt-5">
+                <h3 class="about-service-heading">ABOUT US</h3>
+
+                <div class="row about-data">
+                    <div class="col-12">
+                        <p class="pt-2" style="color:whitesmoke;font-weight: 500;">
+                            <b><u>NAME:</u></b> Dr ASIT KHANNA <span style="font-weight:400">MD, DM, FACC, FESC, FAPSIC, FSCAI,FISC, FICP,</span> <br><br>
+
+                            <b><u>DATE OF BIRTH:</u></b> 2nd December 1973 <br><br>
+
+                            <b><u>PLACE OF BIRTH:</u></b> Nainital, Uttarakhand, India<br><br>
+
+                            <b><u>ADDRESS:</u></b> Dr ASIT KHANNA
+                            s/o Mr. R.N. Khanna 	
+                            1405, Millennia Emerald Heights,
+                            Ramprastha Greens, Vaishali , Sector 7,
+                            Ghaziabad, UP – 201019, India.<br><br>
+
+                            <b><u>PHONE:</u></b> 91-120-4156644, 9818882958<br>
+                            <b><u>EMAIL:</u></b> <a href="mailto:asit.khanna@rediffmail.com" >asit.khanna@rediffmail.com, </a><br>
+                            <a href="mailto:drasitkhanna@yahoo.co.in" >drasitkhanna@yahoo.co.in</a><br><br>
+
+                            <b><u>WEBSITE: </u></b> <a href="www.cardiologistinghaziabad.com">www.cardiologistinghaziabad.com</a><br>
+                            <b><u>LINKEDIN_PROFILE: </u></b><a href="https://www.linkedin.com/in/asit-khanna-a414bb2">https://www.linkedin.com/in/asit-khanna-a414bb2</a><br><br>
+
+                            <b><u>EDUCATION/POST GRADUATE TRAINING </u></b><br><br> 
+
+                            <table class="about-table" border="3" cellspacing="0" align="center">
+                                <tr >
+                                    <th colspan="3">D.M. CARDIOLOGY</th>
+                                </tr>
+
+                                <tr>
+                                    <td>FROM</td>
+                                    <td>TO</td>
+                                    <td>INSTITUTE</td>
+                                </tr>
+                                <tr>
+                                    <td>JULY 2004</td>
+                                    <td>JULY 2007</td>
+                                    <td>G.B.PANT HOSPITAL, NEW DELHI</td>
+                                </tr>
+                            </table>
+
+
+                            <table class="about-table" border="3" cellspacing="0" align="center">
+                                <tr>
+                                    <th colspan="3">SENIOR RESIDENCY (CARDIOLOGY)</th>
+                                    <!-- <th colspan="3"></th> -->
+                                </tr>
+
+                                <tr>
+                                    <td>FROM</td>
+                                    <td>TO</td>
+                                    <td>INSTITUTE</td>
+                                </tr>
+                                <tr>
+                                    <td>JAN 2001</td>
+                                    <td>MAY 2007</td>
+                                    <td>NATIONAL HEART INSTITUTE, 
+                                        EAST OF KAILASH, NEW DELHI*</td>
+                                </tr>
+                                <tr>
+                                    <td>MAY 2001</td>
+                                    <td>MAY 2004</td>
+                                    <td>G.B.PANT HOSPITAL, NEW DELHI</td>
+                                </tr>
+                            </table>
+                            <p><i>•	Under Dr S.. PADMAVATI</i></p>
+
+                            <table class="about-table mt-4" border="3" cellspacing="0" align="center">
+                                <tr rowspan="3">
+                                    <td></td>
+                                    <td >JOINING</td>
+                                    <td >PASSING</td>
+                                    <td >INSTITUTION</td>
+                                    <td >ATTEMPT</td>
+                                </tr>
+
+                                <tr>
+                                    <td>M.B.B.S</td>
+                                    <td>JULY 1992</td>
+                                    <td>DEC 1996</td>
+                                    <td>IMS, BHU, VARANASI</td>
+                                    <td>FIRST</td>
+                                </tr>
+                                <tr>
+                                    <td>INTERNSHIP</td>
+                                    <td>JAN 1997</td>
+                                    <td>DEC 1997</td>
+                                    <td>IMS, BHU, VARANASI</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td>M.D. (Medicine)</td>
+                                    <td>MAY 2001</td>
+                                    <td>MAY 2004</td>
+                                    <td>IMS, BHU, VARANASI</td>
+                                    <td>FIRST</td>
+                                </tr>
+                            </table>  
+                            <p style="text-align: left;"><i>Topper of MD (Med) batch. </i></p>   
+                                
+                            <table class="about-table mt-4" border="3" cellspacing="0" >
+                                <tr rowspan="3">
+                                    <th colspan="5">PREMEDICAL </th>
+                                    <!-- <th colspan="3"></th> -->
+                                </tr>
+
+                                <tr>
+                                    <!-- <td rowspan="3"></td> -->
+                                    <td>LEVEL</td>
+                                    <td>EXAM</td>
+                                    <td>YEAR</td>
+                                    <td>INSTITUTION</td>
+                                    <td>% MARKS</td>
+                                </tr>
+                                <tr>
+                                    <td>10th</td>
+                                    <td>I.C.S.E.</td>
+                                    <td>1989</td>
+                                    <td>Mount Saint Mary’s School, New Delhi</td>
+                                    <td>84.0</td>
+                                </tr>
+                                <tr>
+                                    <td>12th</td>
+                                    <td>C.B.S.E.</td>
+                                    <td>1991</td>
+                                    <td>Mount Saint Mary’s School, New Delhi</td>
+                                    <td>79.3</td>
+                                </tr>
+                            </table>      
+                                        <br>
+
+                            <b><u> MEDICAL LICENSURE :</u></b>
+                            <br>
+                            Delhi Medical Council Number 45670 
+                            Medical Council Of India Number 42155<br><br>
+
+                            <b><u> PRESENT POSITION</u></b><br>
+
+                            •	Principal Cardiologist and Clinical Coordinator in Yashoda Superspeciality Hospital, Kaushambi from August 2018 to date.<br><br>
+
+                            <b><u> PREVIOUS PROFFESIONAL POSITIONS AND APPOINTMENTS</u></b><br>
+
+                            •	Senior Interventional Cardiologist, Dept Of Cardiology, Max Pushpanjali Superspeciality Hospital, Vaishali from 2011 to August, 2018.<br>
+                            •	Chief of Cardiology and Director, Cardiac Cath Lab, Sarvodaya Hospital And Heart Centre, Kavi Nagar, Ghaziabad from 2013 to 2015.  <br>
+                            •	Unit head, Dept Of Cardiology, Yashoda Superspeciality Hospital, Nehru Nagar from 2011 to 2015<br>
+                            •	Unit head, Dept Of Cardiology, Narinder Mohan Hospital and Heart Centre, Mohan Nagar, Ghaziabad from 2007 to 2011<br>
+                            •	Visiting Interventional Cardiologist in Cath Labs in Aligarh and Muzzafarnagar.<br>
+                            •	Sccessfully running own  non interventional cardiac centre, Navjeevan Heart Centre and Navjeevan OPD, for all coronary problems, preventive cardiology, pacemaker clinic and fetal /pediatric clinic, Heart failure clinic, transplant clinic etc. Offers services like ECHO (2D/3D/Pediatric/DSE /TEE), TMT, HOLTER, Ambulatory BPM etc.<br>
+                            <br>
+                            Till October 2022, I have done more than 15000 angiographies and 5000 angioplasties (coronary/peripheral/carotid/Rota/IVL) and 400 pacemakers/CRT/ICD/COMBO implantations. Numerous other interventions like numerous cath studies, balloon valvotomies, peripheral embolisations and several device implantations for ASD and PDA.<br>
+
+                        </p>
+                        <div style="margin-top:30px;text-align: center; height: auto;">
+                             <a style="padding:10px;background-color:#00d2ff;font-weight: 700; border-radius: 5px; color:white;font-size:18px;box-shadow: 0px 0px 10px #00d2ff;" href="pdf/asit_cv.pdf" download>Download PDF<img src="images/icons/download.png" height="15px" width="15px" class="ml-2" alt="download button image">
+                            </a>
+                        </div>
+                        <!-- <a style="padding:10px; text-align:center;background-color:#00d2ff;font-weight: 700; border-radius: 5px; color:white;
+                        font-size:18px;box-shadow: 0px 0px 10px #00d2ff;" href="pdf/asit_cv.pdf" download>Download PDF 
+                        <i class="fa fa-download" style=""></i></a></div> -->
+                    </div>
+                </div>
+               
+        </section>
+
+        <!-- Activities section -->
+        <section id="service" class="service-section">
+            <div class="container">
+                <h3 class="about-service-heading mb-5">Activites</h3>
+                <ul class="nav tabs jQueryClassForServiceTabs">
+                    <li class="nav-item">
+                        <a class="nav-link active jQServicesTabClick" customAttrCategoryTypeID="0" data-toggle="tab" href="#all">All</a>
+                    </li>
+                    
+                 
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+
+                    <!-- all -->
+                    <div id="all" class="container tab-pane active"><br>
+                        <div class="row templateClassForServies">
+                            
+                            
+                        </div>
+                    </div>
+
+        </section>
+
+    
+
+        <!-- gallery section -->
+        
+            <section id="gallery" class="glry">
+                <div class="container">
+                  <h3 class="about-service-heading mt-5 mb-5">GALLERY</h3>
+                </div>
+                <div class="swiper mySwipper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <!-- <div class="swiper-slide" >
+                    </div> -->
+        
+                    <div class="templateClassForGalleryImage"></div>
+                  </div>
+                  <!-- If we need pagination -->
+                  <!-- <div class="swiper-pagination"></div> -->
+        
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+        
+                  <!-- If we need scrollbar -->
+                  <!-- <div class="swiper-scrollbar"></div> -->
+                </div>
+              </section>
+
+              <!-- <footer>
+                <p>this was created with love by Digi Idea lab</p>
+              </footer> -->
+        
+
+        <!-- feedback section -->
+        <!-- <section id="feedback" class="feedback-section pt-3">
+            <div class="container">
+                <h3 class="about-service-heading">FEEDBACK</h3>
+                <div class="row">
+                    <div class="col-12 pt-3 pb-3">
+                        <div id="demo" class="carousel slide" data-ride="carousel"> -->
+                            <!-- Indicators -->
+                            <!-- <ul class="carousel-indicators d-none">
+                                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                <li data-target="#demo" data-slide-to="1"></li>
+                                <li data-target="#demo" data-slide-to="2"></li>
+                            </ul> -->
+
+                            <!-- The slideshow -->
+                            <!-- <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <p>
+                                        Amazing Services. Really Loved It.   
+                                    </p>
+                                    <img src="images/stars.webp" alt="star image" height="23px" width="123px">
+                                </div>
+                                <div class="carousel-item">
+                                    <p>
+                                      Nice work.
+                                    </p>
+                                    <img src="images/stars.webp" alt="star image" height="23px" width="123px">
+                                </div>
+                                <div class="carousel-item">
+                                    <p>
+                                        Spendid work and great deals.
+                                    </p>
+                                    <img src="images/stars.webp" alt="star image" height="23px" width="123px">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="border:3px solid black; ">
+            <div class="container-fluid mb-5">
+                <div class="row mt-4 align-items-center text-center">
+                    <div class="col-sm-3 col-md-4 col-6 text-white">
+                        <strong>4.2</strong>
+                        <div class="feed-star">
+                            <span class="">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </span>
+                        </div>
+                        <p>195 Total</p>
+                    </div>
+                    <div class="col-sm-4 col-6 pro-bar">
+                        <center>
+                            <div class="d-flex">
+                                <i class="fa-solid fa-star text-warning pt-1 pr-1"></i>
+                                <strong>5</strong>
+                                <div class="progress bg-secondary m-1" style="width:120px">
+                                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                                        style="width: 70%">70%</div>
+                                </div> -->
+                                <!-- <strong>3</strong> -->
+                            <!-- </div>
+                            <div class="d-flex">
+                                <i class="fa-solid fa-star text-warning pt-1 pr-1"></i>
+                                <strong>4</strong>
+                                <div class="progress bg-secondary m-1" style="width:120px">
+                                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                                        style="width:20%">20%</div>
+                                </div> -->
+                                <!-- <strong>0</strong> -->
+                            <!-- </div>
+                            <div class="d-flex">
+                                <i class="fa-solid fa-star text-warning pt-1 pr-1"></i>
+                                <strong>3</strong>
+                                <div class="progress bg-secondary m-1" style="width:120px">
+                                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                                        style="width:10%">10%</div>
+                                </div> -->
+                                <!-- <strong>0</strong> -->
+                            <!-- </div>
+                            <div class="d-flex">
+                                <i class="fa-solid fa-star text-warning pt-1 pr-1"></i>
+                                <strong>2</strong>
+                                <div class="progress bg-secondary m-1" style="width:120px">
+                                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                                        style="width:0%"></div>
+                                </div> -->
+                                <!-- <strong>0</strong> -->
+                            <!-- </div>
+                            <div class="d-flex">
+                                <i class="fa-solid fa-star text-warning pt-1 pr-1"></i>
+                                <strong>1</strong>
+                                <div class="progress bg-secondary m-1" style="width:120px">
+                                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                                        style="width:0%"></div>
+                                </div> -->
+                                <!-- <strong>0</strong> -->
+                            <!-- </div>
+                        </center>
+                    </div>
+                    <div class="col-sm-5 col-md-4 col-12 star-rating-wrapper">
+                        <input type="radio" name="rating" id="star-1"><label for="star-1"></label>
+                        <input type="radio" name="rating" id="star-2"><label for="star-2"></label>
+                        <input type="radio" name="rating" id="star-3"><label for="star-3"></label>
+                        <input type="radio" name="rating" id="star-4"><label for="star-4"></label>
+                        <input type="radio" name="rating" id="star-5"><label for="star-5"></label>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+
+        <!-- bottom to top -->
+        <section class="section-bottom-top mb-5">
+            <a href="#home" data-toggle="tooltip" title="Top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </section>
+
+    </div>
+    <!-- preloader -->
+    <!-- <script>
+        var loader = document.getElementById('loader');
+
+        window.addEventListener('load', function () {
+
+
+            loader.style.visibility = "hidden";
+        });
+    </script> -->
+
+    <!-- web share -->
+    <script>
+        const shareButton = document.querySelector('#btn');
+
+        const title = window.document.title;
+        const url = window.document.location.href;
+
+        shareButton.addEventListener("click", async () => {
+            try {
+                await navigator.share({ title: `${title}`, url: `${url}` });
+                alert("Data was shared successfully");
+            } catch (err) {
+                console.error("Share failed:", err.message);
+            }
+        });
+    </script>
+
+
+    <!-- save my card -->
+    <script type="text/javascript">
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('serviceworker.js').then(function (registration) {
+
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function (err) {
+
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+
+        let deferredPrompt;
+        var div = document.querySelector('.add-to');
+        var button = document.querySelector('.add-to-btn');
+        div.style.display = 'block';
+
+        window.addEventListener('beforeinstallprompt', (e) => {
+
+            e.preventDefault();
+
+            deferredPrompt = e;
+            div.style.display = 'block';
+
+            button.addEventListener('click', (e) => {
+
+                div.style.display = 'none';
+
+                deferredPrompt.prompt();
+
+                deferredPrompt.userChoice
+                    .then((choiceResult) => {
+                        if (choiceResult.outcome === 'accepted') {
+                            alert('App Installed in Device');
+                        } else {
+                            alert('App Not Install');
+                        }
+                        deferredPrompt = null;
+                    });
+            });
+        });
+    </script>
+
+    <!-- whatsapp on share -->
+    <script>
+        function share() {
+            let user = $("input[name=number]").val();
+            window.open(
+                `https://wa.me/+91${user}?text=Check out the Card: https://digiidealab.com/asit_khanna/ %0ADoctor's linkedIn profile: https://www.linkedin.com/in/asit-khanna-a414bb2 %0AWebsite: www.cardiologistinghaziabad.com`, '_blank'
+            )
+        }
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  const mySwiper = new Swiper(".swiper", {
+    // Optional parameters
+    direction: "horizontal",
+    loop: true,
+    speed: 300,
+    mousewheel: false,
+    coverflowEffect: {
+      rotate: 30,
+      slideShadows: true,
+    },
+    // If we need pagination
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    
+    // Navigation arrows
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    
+    // And if we need scrollbar
+    scrollbar: {
+      el: ".swiper-scrollbar",
+    },
+  });
+  </script>
+
+  <!-- cdn for font awesome icons -->
+  <script src="https://kit.fontawesome.com/949b51e5a4.js" crossorigin="anonymous"></script>
+  <script src="./js/jQueryFileForBasicDataChangeFunction.js"></script>
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>
