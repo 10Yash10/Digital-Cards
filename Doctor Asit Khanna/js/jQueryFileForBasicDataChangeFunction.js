@@ -3,6 +3,7 @@ const dataSetForBasicData = {
     "logo":"images/logo-image2.png",
     "title":"Dr. Asit Khanna",
     "subTitle":"MD, DM, FACC, FESC, FAPSIC, FSCAI,FISC, FICP",
+    "post":"Principal Consultant Cardiology and Director Cath Lab",
     "callingNumber":"9818882958",
     "callingSecondNumber":"91-120-4156644",
     "whatsappNumber":"9818882958",
@@ -23,6 +24,7 @@ $(document).ready(()=>{
     $(".jQueryCoverBackground").attr("style",dataSetForBasicData.coverBackground);
     $(".jQueryLogo").attr("src",dataSetForBasicData.logo);
     $(".jQueryTitle").html(dataSetForBasicData.title);
+    $(".jQueryPost").html(dataSetForBasicData.post);
     $(".jQuerySubTitle").html(dataSetForBasicData.subTitle);
     $(".jQueryCallingNumber").attr("href","tel:+91 "+ dataSetForBasicData.callingNumber);
     $(".jQueryCallingNumber span").attr("href","tel:+91 "+ dataSetForBasicData.callingNumber).html(dataSetForBasicData.callingNumber + ",<br>");
