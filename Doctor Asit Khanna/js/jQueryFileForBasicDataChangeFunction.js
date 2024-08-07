@@ -1,5 +1,5 @@
 const dataSetForBasicData = {
-    "coverBackground":"background-image:url(images/cover-banner.jpg);",
+    "coverBackground":"background-image:url('images/cover-banner(1200x400).jpg');",
     "logo":"images/logo-image2.png",
     "title":"Dr. Asit Khanna",
     "subTitle":"MD, DM, FACC, FESC, FAPSIC, FSCAI,FISC, FICP",
