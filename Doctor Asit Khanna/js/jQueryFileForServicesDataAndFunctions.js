@@ -51,7 +51,7 @@ var data = {
 						•	Winner of All India Glaxo Wellcome - IJCP Essay competition on Hepatitis B in 2000.<br>
 						•	Distinguished Alumnus award from G.B. Pant Hospital and MAMC, Delhi 2015.<br>
 						•	Appreciation Award in UP Cardiac Institutes Alumni meet, Delhi 2015<br>
-            <div class="toggle-text">
+            <div class="toggle-text t1">
 						•	Recipient of the <b>ICONS OF HEALTHCARE</b> award by Times Of India, Meerut 2019<br>
 						•	Recipient of the <b>SEWA RATNA</b> award by <b>Govt Of Uttarakhand</b>, 2020.<br>
 						•	Corona warrior award from Shipra Kalyan Samiti, Uttarakhand, 2020<br>
@@ -78,7 +78,7 @@ var data = {
 						4. Fellow of the European Society Of Cardiology(FESC)<br>
 						5. Fellow of the Indian Society Of Cardiology(FISC)<br>
 
-            <div class="toggle-text">
+            <div class="toggle-text t2">
               6. Fellow of the Indian College Of Physicians (FICP)</br><br>
               7. Cardiological Society Of India (Life Member)<br>
               8. Indian College Of Cardiology ( Life member)<br>
@@ -137,7 +137,7 @@ var data = {
           			`
 						•	Faculty at local seminars and conferences like IMA(Ghaziabad). IMA(West Ghaziabad)(2018, 2020), IMA(Meerut), IMA(Muzzafarnagar), IMA(Kanpur), IMA (Varanasi,) EDPA (East Delhi Physicians Association), API(Ghaziabad), API (Meerut),  API(Delhi), API (Agra), Association Of Family Physicians(Ghaziabad), HT Therapeutics Conclave (Mumbai,2017), NIMA (National Indian Medical Association), CSI (Cardiological Society Of India  Delhi Branch), Endocrine Society Of India, INASL, Transradial Interventions (TRICO Ahmedabad).   <br><br>
             
-            <div class="toggle-text">
+            <div class="toggle-text t3">
             •	Faculty in national conferences like 2nd American College Of Physicians (Delhi chapter, August 2017), CSI India, NIC, ICC, IIC(2014), APVIC(2017), UPDACON(2016), INDIA LIVE in India(2016,2020), EIICON, Kolkata 2021 and in Nepal. 
             <br><br>
 					•	Faculty in international Conferences on interventional Cardiology like ACC, ESC, TCT(USA 2011, 2014, 2016), TCT-ASIA PACIFIC (S.Korea 2011), Euro PCR (Spain 2009 & France 2012), HEART FAILURE CONGRESS (Portugal, Spain, Greece),APVIC (Delhi), SINGAPORE LIVE (Singapore), Thailand, Malayasia 2001, Dubai, Vietnam, Australia, Macau, China, Italy, Kazakhstan and several hands-on workshops on complex angioplasty, Rotablation, IVUS, OCT and pacemaker/device clinics.
@@ -177,7 +177,7 @@ var data = {
 
 					2.	Contributor in <b>Indian Guidelines On hypertension 111</b>, J Clin Prev Cardiol, 2013:2(3): 128-    61, Vol 2, Jul 2013, Hypertension Society Of India.
 <br><br>
-<div class="toggle-text" id="4">
+<div class="toggle-text t4">
 					3.	Nath G, <b>Khanna A</b>, Singh VP, Sundar S, Rai M. Spectrum Of Infections In Leukemia: A Tertiary Hospital Report.; Ind J Prev Soc Med 2003; 34(1&2):1-7. (Indexed in Ind Med)
 <br><br>
 					4.	VP Singh, <b>A Khanna</b> et al. Non Hodgkins Lymphoma with Pure Red Cell Aplasia: J Assoc Physicians India 49,1123-1124.11, 2001. 
@@ -194,7 +194,8 @@ var data = {
 						9.	N Acetyl Cysteine and Contrast induced Nephropathy in diabetic angioplasty pts. KD.Singh, R. Gupta, <b>Asit Khanna</b> et al, Indian Heart J, 2006,58:419.<br>
 						10.	Evaluation of 2nd gen. DES with reservoir based bioresorbable polymer. S. Tyagi, N. Bhamri, <b>Asit Khanna</b> et al. Indian Heart J, 2006:58:42<br>
             </div>
-            <button class="toggle-lines d-flex" id="4"><i class="fa fa-angle-down mx-1"></i><span>View More</span></button>					`,
+            <button class="toggle-lines d-flex" id="4"><i class="fa fa-angle-down mx-1"></i><span>View More</span></button>
+            					`,
         price: 2500,
       },
     },
@@ -211,7 +212,7 @@ var data = {
 						2.	Secretary of medical college literary committee from 1993 – 1996.<br>
 						3.	Organizing secretary of PLEXUS, literary-cultural inter college festival of IMS BHU.<br>
 						4.	Captained and won different inter college festival competitions from 1993-1997.<br>
-            <div class="toggle-text" >
+            <div class="toggle-text t5">
 						5.	Participated and represented college in different sports like football and cricket.<br>
 						6.	As a member of Ghaziabad Management Association, interacting with industry leaders/factory owners and management of Educational institutions in and around Ghaziabad. Lecturing and mentoring in their conferences.<br>
 						7.	  Organizing and conducting free cardiac check up and treatment camps in association with organizations like Rotary Club, Khatri Sabha, Bharat Vikas Parishad, NGOs( Dhruv Forever Foundation, Kitaab Club, VSSVSS, Utsah Toli, UANA, SIF), Association Of American Physicians Of Indian Origin,  Industry owners Association, Ex Servicemen’s association, Army wive’s association, Schools, Ordinance Factory Board, UPPCL, NTPC, BEL, BHEL,NHPC, PAC, CISF, Market Associations, Pensioner’s groups, Trade unions, RWAs etc.<br>
@@ -225,7 +226,7 @@ var data = {
 						13.	Passionate about gardening and horticulture. Have won Horticulture Society awards on the subject.<br>
 						14.	<b>Founder of THE HOPE FOUNDATION (<a href="www.hopefoundationngo.com"> www.hopefoundationngo.com</a> ) a non profit organization working in the fields of health, education, forestation and innovative farming in Uttarakhand and Ghaziabad</b>. Since last 6 years it has been involved in donations of educational materials/grants/scholarships/laptops/computers to poor schoolchildren, blankets/clothes to poor, medical camps/medicines/free blood tests and check ups and public health/education/ vocational training lectures, tree plantations, lake regeneration and other activities in collaboration with local district administration and NGOs working in similar fields(UANA, SIF, VSSVSS, Utsah Toli, AAPI, Dhruv Forever, Naukuchiatal Foundation, Kitaab Club, Janmaitri Sangathan etc). Activities uploaded at Facebook page –<a href="https://www.facebook.com/Hope-Dr-Asit-Khannas-Initiative-for-Healthy-Uttarakhand-921423201228626/"> https://www.facebook.com/Hope-Dr-Asit-Khannas-Initiative-for-Healthy-Uttarakhand-921423201228626/</a> <br>
             </div>
-            <button  class="toggle-lines d-flex" btnId="5"><i class="fa fa-angle-down mx-1"></i><span>View More</span></button>
+            <button  class="toggle-lines d-flex" id="5"><i class="fa fa-angle-down mx-1"></i><span>View More</span></button>
 					`,
         price: 2500,
       },
@@ -404,19 +405,27 @@ jQuery(document).ready(function () {
     overflow:"hidden",
   });
   // $(".toggle-lines").click(()=>{
-    $(".toggle-lines").on("click",()=>{
-    $(".toggle-text").slideToggle(500);
-      $(".toggle-lines span").text(function(i, text){
-        return text === "View More" ? "View Less" : "View More";
+    // $(".toggle-lines").on("click",function(){
+    //   $(this).next(".toggle-text").slideToggle(500);
+    //   $(this).find("span").text(function(i, text){
+    //     return text === "View More" ? "View Less" : "View More";
+    //   });
+
+      // if($(".toggle-lines i").hasClass("fa-angle-down")){
+      //   $(".toggle-lines i").removeClass("fa-angle-down").addClass("fa-angle-up");
+      // }else{
+      //   $(".toggle-lines i").removeClass("fa-angle-up").addClass("fa-angle-down");
+      // };
+
+      // $(this).find("i").toggleClass("fa-angle-down fa-angle-up");
+
+      $(".toggle-lines").on("click", function(){
+        let id = $(this).attr("id");
+        console.log(id);
+        $(".t"+id).slideToggle(500);
+        $(this).find("span").text(function(i, text){
+          return text === "View More" ? "View Less" : "View More";
+        });
+        $(this).find("i").toggleClass("fa-angle-down fa-angle-up");
       });
-
-      if($(".toggle-lines i").hasClass("fa-angle-down")){
-        $(".toggle-lines i").removeClass("fa-angle-down").addClass("fa-angle-up");
-      }else{
-        $(".toggle-lines i").removeClass("fa-angle-up").addClass("fa-angle-down");
-      };
-
   });
-
-
-});
